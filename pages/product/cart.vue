@@ -17,13 +17,13 @@
 export default {
   computed: {
     cart() {
-      // Get cart from Vuex store
+      
       return this.$store.state.cart;
     }
   },
   methods: {
     checkout() {
-      // Implement checkout logic
+     
     }
   }
 };

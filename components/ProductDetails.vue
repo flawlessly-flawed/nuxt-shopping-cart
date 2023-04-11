@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     addToCart(product) {
-      // Implement your logic for adding the product to the cart
+      
     },
   },
 };
