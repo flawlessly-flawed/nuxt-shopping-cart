@@ -18,7 +18,11 @@ export default {
   css: ["@/assets/styles.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    
+        // '@/plugins/vuex-persist', 
+      //   { src: '@/store/cart.js', mode: 'client' } // Register the cart store module
+      ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -31,4 +35,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  
 };
